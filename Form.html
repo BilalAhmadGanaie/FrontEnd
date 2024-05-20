@@ -1,0 +1,70 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+    <title>HTML Forms</title>
+    <style>
+        form{
+            border: solid darkgreen ;
+            background-color: aqua;
+            margin: 2% 30% 10% 30%;
+            padding: 1% 1% 1% 1%;
+            font-weight: bold;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form> 
+        <!-- label for defining user information-->
+        <label id="name-label"for="name">Name</label>
+        <br>
+        <!-- input with required fields -->
+        <input type="text"name="name"id="name"placeholder="EnterYourName"required>
+        <br><br>
+        <!-- label for defining user information-->
+        <label id="email-label"for="email">Email</label><br>
+        <!-- input with required fields -->
+        <input type="email"name="email"id="email"placeholder="test@gmail.com"required>
+        <br><br>
+        <!-- label for defining user information-->
+        <label id="number-label"for="number">Roll No</label><br>
+        <!-- input with required fields -->
+        <input type="number"name="number"id="number"placeholder="roll"min="0"max="100"required>
+        <br><br>
+        <!-- label for defining user information-->
+        <label for="drop-down">How do you rate our courses?</label><br>
+        <!-- drop-down -->
+        <select name="drop-down"id="drop-down">
+            <option value="Excellent">Excellent</option>
+        <option value="Good">Good</option><option value="Fair">Fair</option><option value="Poor">Poor</option> 
+    </select>
+    <br><br>
+    <!-- label for defining user information-->
+    <label>Your Favorite Topic in HTML</label><br>
+    <!-- checkbox -->
+<input type="checkbox"name="topic1"value="Structuralelements">Structural Elements<br>
+<input type="checkbox"name="topic2"value="LinksandList">LinksandList<br>
+<input type="checkbox"name="topic3"value="media">HTMLMedia<br>
+<input type="checkbox"name="topic4"value="tables">HTMLTable<br>
+<input type="checkbox"name="topic5"value="groupelements">GroupingElements<br>
+<input type="checkbox"name="topic6"value="forms">Forms
+<br><br>
+<!-- label for defining user information-->
+<label>Do you like the HTML course?</label><br>
+<!-- radio button -->
+<input type="radio"name="course"value="yes">Yes
+<input type="radio"name="course"value="no">No
+<br><br>
+<!-- label for defining user information-->
+<label>Few words about course</label><br>
+<!-- text area -->
+<textarea rows="5"cols="50"name="Description"id="Description"></textarea>
+<br><br>
+<!--button with alert-->
+<button type="button"onclick="alert('Validating')">Submit</button>
+</form>
+</body>
+</html>
