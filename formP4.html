@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormP4</title>
+    <style>
+        form{
+            border: solid darkgreen;
+            background-color: aqua;
+            margin: 10% 33%;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form>
+        <label id="name-label" for="name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <br><br>
+        <label id="email-label" for="email-Id">Email-Id</label><br>
+        <input type="email" name="email" placeholder="test@gmail">
+        <br><br>
+        <label id="roll-label" for="rollno">Roll Number</label><br>
+        <input type="number" name="rollno" placeholder="rollno" required min="0" max="20">
+        <br><br>
+        <label id="course-label" for="course">How do you rate our courses?</label><br>
+        <select>
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Poor">Poor</option>
+            <option value="Very Poor">Very Poor</option>
+        </select>
+        <br><br>
+        <label id="topic-label" for="Topic">Your Favorite Topic in HTML</label><br>
+        <input type="checkbox" name="topic1" value="Structural Elements">Structural Elements<br>
+        <input type="checkbox" name="topic2" value="Links and Lists">LInks and Lists<br>
+        <input type="checkbox" name="topic3" value="HTML Media">HTML Media<br>
+        <input type="checkbox" name="topic4" value="HTML Table">HTML Table<br>
+        <input type="checkbox" name="topic5" value="Grouping Elements">Grouping Elements<br>
+        <input type="checkbox" name="topic6" value="Forms">Forms<br>
+        <br><br>
+        <label id="topic-label" for="Topic">Do you like the HTML Course</label><br>
+        <input type="radio" name="like" value="Yes">Yes
+        <input type="radio" name="like" value="No">No
+        <br><br>
+        <p>Few words about course</p>
+        <textarea rows="5" cols="50"></textarea>
+        <br><br>
+        <button onclick="alert"('Server validating') value="Submit"> Submit</button>
+    </form>
+</body>
+</html>
