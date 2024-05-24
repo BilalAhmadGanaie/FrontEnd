@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            border: solid black;
+            background-color: lightblue;
+            margin: 2% 20%;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+         <p>Enter your details below</p>
+       <div> 
+        <ul class="ul1">
+            <li class="li1">
+        <input type="email" name="Email" placeholder="your-email@gmail.com" required><br>
+        <br>
+       <li><input type="password" min="8" max="20" required></li> <br>
+      <h5><p><i>!Type a complex password with 8-20 characters</i></p></h5>
+     </li>
+     </ul>
+       </div>
+       <ul class="ul5">
+        <li class="li5">
+       <input type="number" maxlength="13" placeholder="+20 Phone Number" required><br>
+        </li>
+    </ul>
+       <hr>
+        <h3><i><p>Enter your Profession:</p></i></h3>
+        <ul class="ul2">
+                <li class="li2">
+        <input type="radio" name="Profession">Student 
+        <input type="radio" name="Profession">Teacher 
+        <input type="radio" name="Profession">Developer 
+        <br>
+    </li>
+ </ul>
+        <label for="sem">Chose the stage if you are (student)</label>
+        <select>
+            <option value="First sem"> First sem</option> 
+            <option value="2nd sem"> 2nd sem</option>
+            <option value="3rd sem"> 3rd sem</option>
+        </select>
+        <hr>
+        <ul class="ul3">
+            <li class="li3">
+        <label for="birth-date">Enter your Birth date.</label>
+        <input type="date">  
+     </li>
+        </ul>
+        <hr>
+        <ul class="ul4">
+            <li class="li4">
+        <input type="text" value="Any Notes" name="nots"> 
+        </li>
+        </ul>
+        <hr>
+        <input type="submit" value="Submit">
+        <input type="submit" value="Reset">
+    </form>    
+</body>
+</html>
