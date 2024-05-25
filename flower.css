@@ -1,0 +1,114 @@
+body {
+     background-image: url('https://media.istockphoto.com/id/1493229826/photo/pink-rose-with-bubbles-soft-background.jpg?s=1024x1024&w=is&k=20&c=NU7U3QFiRAZKawaxr_u7WcvC8FXptDBySmg6FLApcRk=');
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     color: #f8d300;
+ }
+ 
+ header {
+     background-color: #f8d300;
+     padding: 10px 0;
+     text-align: center;
+ }
+ 
+ header h1 {
+     margin: 0;
+     color: #fff;
+ }
+ 
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ nav li {
+     margin: 0 15px;
+ }
+ 
+ nav a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ section {
+     padding: 20px;
+     text-align: center;
+     color: rgb(12, 37, 12);
+ }
+ 
+ section img {
+     max-width: 30%;
+     max-height: 10%;
+     border: solid 2px #f8d300;
+     border-radius: 5%;
+ }
+ 
+ .product {
+     display: inline-block;
+     margin: 20px;
+     text-align: center;
+     color: rgb(12, 37, 12);
+ }
+ 
+ 
+ .product img {
+     border: solid ;
+     border-radius: 5%;
+     width: 500px;
+     height: 180px;
+     object-fit: cover;
+ }
+ 
+ form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ form label {
+     margin: 10px 0 5px;
+ }
+ #contact{
+     font-weight: bold;
+ }
+ 
+ 
+ form input, form textarea {
+     width: 80%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ form button {
+     padding: 10px 20px;
+     background-color: #f8d300; 
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ form button:hover {
+     background-color:#00bef8;
+ }
+ 
+ footer {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 10px 0;
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+ }
